@@ -10,3 +10,12 @@ git add와  git reset으로 스테이징 영역에 추가/삭제한다
 
 작업이 일단락되면 commit한다
 -git commit -m"작업영역" : 반드시 메시지를 남긴다
+
+브랜치 이름을 main으로 변경
+git의 기본 브랜치는 master , github는 main을 사용 
+git branch -M main
+
+ github 원격저장소를 등록
+ git remote add origin https://github.com/mido210/project.git
+
+ 
