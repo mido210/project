@@ -18,4 +18,6 @@ git branch -M main
  github 원격저장소를 등록
  git remote add origin https://github.com/mido210/project.git
 
- 
+원격저장소에 push한다 
+-u는 원격저장소 이름을 저장. 다음부터는 git push
+git push -u origin main
